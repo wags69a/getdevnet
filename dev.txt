@@ -1,0 +1,6 @@
+This is a git test.
+
+I did these commands:
+
+git init
+touch dev.txt
