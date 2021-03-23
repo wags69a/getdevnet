@@ -4,3 +4,7 @@ I did these commands:
 
 git init
 touch dev.txt
+git status
+git config --global user.name
+git config --global user.email
+
