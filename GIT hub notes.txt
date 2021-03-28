@@ -1,0 +1,42 @@
+add, commit, push
+
+
+git bash
+change to working directory
+issue git Branch
+
+git status
+nano README.md
+	added line
+git push
+
+git commit -a --> opens editor to add line as to why change
+then need to git commit README.md
+
+git push (worked this time)
+
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 355 bytes | 59.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/wags69a/getdevnet.git
+   23d2374..fd8eed7  master -> master
+
+now can be found in summary
+
+git commit [-a] [-m] <"your commit message">
+git remote add (name) (url)
+git remote rm (name) - remove remote tracking of repository
+git push (remotename) (branchname) - sync to local repository
+git pull (remotename) (branchname) - sync remote and local repositorys
+git branch (-d) <branchname> [commit] - add a branch - -d will delete a branch
+git checkout [-b] (branchname or commit) - move to new branch and change working directory
+git merge (branch to merge with current) - combine multiple branches into one
+#git add .
+#git commit -a -m "new feature" - add changes then commit
+git checkout master - switch back to master
+git diff [--stat] [branchname or commit] - takes two sets of inputs and outputs the difference
